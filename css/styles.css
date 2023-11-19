@@ -397,13 +397,10 @@ border-radius: 50%;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link:hover {
-  background-color: #31d0aa;;
-}
-
-.icon-link:focus {
+.icon-link:hover, .icon-link:focus {
   background-color: var(--hover-focus-color);
 }
+
 .icon {
 fill: var(--other);
 }
@@ -571,4 +568,8 @@ margin-bottom: 16px;
 
 .footer-social-icon-list {
 gap: 16px;
+}
+
+.footer-icon-link:hover, .footer-icon-link:focus {
+background-color: #31d0aa;
 }
